@@ -1,7 +1,6 @@
 # Task-2: Tool & PDK Installation Proof
 
-This folder contains documentation for tool installation verification.  
-Screenshots are stored in the `images/` folder.
+This folder contains screenshots verifying installation of all required tools and the SkyWater PDK on Ubuntu 20.04+.
 
 ---
 
@@ -9,31 +8,31 @@ Screenshots are stored in the `images/` folder.
 
 1. ✅ **Yosys**
    - Command: `yosys -V`
-   - ![Yosys](../images/yosys.png)
+   - Screenshot: `yosys.png`
 
 2. ✅ **Icarus Verilog**
    - Command: `iverilog -V`
-   - ![Icarus Verilog](../images/iverilog.png)
+   - Screenshot: `iverilog.png`
 
 3. ✅ **GTKWave**
    - Command: `gtkwave --version`
-   - ![GTKWave](../images/gtkwave.png)
+   - Screenshot: `gtkwave.png`
 
 4. ✅ **ngspice**
    - Command: `ngspice -v`
-   - ![ngspice](../images/ngspice.png)
+   - Screenshot: `ngspice.png`
 
-5. ✅ **Magic**
-   - Command: `magic`
-   - ![Magic](../images/magic.png)
+5. ✅ **Magic (Layout Tool)**
+   - Command: `magic` (startup banner / GUI)
+   - Screenshot: `magic.png`
 
 6. ✅ **Docker**
    - Command: `docker --version`
-   - ![Docker](../images/docker.png)
+   - Screenshot: `docker.png`
 
 7. ✅ **OpenLane**
    - Command: `make test` inside `~/OpenLane`
-   - ![OpenLane](../images/openlane.png)
+   - Screenshot: `openlane.png`
 
 ---
 
@@ -42,4 +41,5 @@ Screenshots are stored in the `images/` folder.
 - Verified Magic integration with **Sky130A PDK**:  
   ```bash
   magic -T /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.tech
-  load 5k_resistor
+  - Screenshot: `skypdk.png`
+
