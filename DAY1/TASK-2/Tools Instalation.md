@@ -42,4 +42,5 @@ Screenshots are stored in the `images/` folder.
 - Verified Magic integration with **Sky130A PDK**:  
   ```bash
   magic -T /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.tech
-  load 5k_resistor
+  
+![Sky130 PDK](../images/skypdk.png)
