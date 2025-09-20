@@ -1,46 +1,93 @@
-# Task-2: Tool & PDK Installation Proof
 
-This folder contains documentation for tool installation verification.  
-Screenshots are stored in the `images/` folder.
 
----
+# 🛠️ Task-2: Tool & PDK Installation Proof
 
-## 🔹 Tools Installed and Verified
-
-1. ✅ **Yosys**
-   - Command: `yosys -V`
-   - ![Yosys](../images/yosys.png)
-
-2. ✅ **Icarus Verilog**
-   - Command: `iverilog -V`
-   - ![Icarus Verilog](../images/iverilog.png)
-
-3. ✅ **GTKWave**
-   - Command: `gtkwave --version`
-   - ![GTKWave](../images/gtkwave.png)
-
-4. ✅ **ngspice**
-   - Command: `ngspice -v`
-   - ![ngspice](../images/ngspice.png)
-
-5. ✅ **Magic**
-   - Command: `magic`
-   - ![Magic](../images/magic.png)
-
-6. ✅ **Docker**
-   - Command: `docker --version`
-   - ![Docker](../images/docker.png)
-
-7. ✅ **OpenLane**
-   - Command: `make test` inside `~/OpenLane`
-   - ![OpenLane](../images/openlane.png)
+All the required **EDA tools** and the **SkyWater PDK (sky130A)** have been successfully installed.
+Below is the documentation proof with screenshots and short descriptions.
 
 ---
 
-## 🔹 SkyWater PDK Verification (sky130A)
+## 🔹 Yosys
 
-- Verified Magic integration with **Sky130A PDK**:  
-  ```bash
-  magic -T /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.tech
-  
-![Sky130 PDK](../images/skypdk.png)
+The synthesis tool **Yosys** was installed and verified successfully.
+
+<p align="center">  
+  <img src="../images/yosys.png" alt="Yosys Proof" width="500"/>  
+</p>  
+
+---
+
+## 🔹 Icarus Verilog
+
+The simulator **Icarus Verilog** was installed successfully.
+
+<p align="center">  
+  <img src="../images/iverilog.png" alt="Icarus Verilog Proof" width="500"/>  
+</p>  
+
+---
+
+## 🔹 GTKWave
+
+**GTKWave**, used for viewing simulation waveforms, is installed and running correctly.
+
+<p align="center">  
+  <img src="../images/gtkwave.png" alt="GTKWave Proof" width="500"/>  
+</p>  
+
+---
+
+## 🔹 ngspice
+
+The circuit simulation tool **ngspice** was installed successfully.
+
+<p align="center">  
+  <img src="../images/ngspice.png" alt="ngspice Proof" width="500"/>  
+</p>  
+
+---
+
+## 🔹 Magic
+
+The layout editor **Magic** has been installed and verified.
+
+<p align="center">  
+  <img src="../images/magic.png" alt="Magic Proof" width="500"/>  
+</p>  
+
+---
+
+## 🔹 Docker
+
+**Docker**, required for containerized EDA flows, was successfully installed.
+
+<p align="center">  
+  <img src="../images/docker.png" alt="Docker Proof" width="500"/>  
+</p>  
+
+---
+
+## 🔹 OpenLane
+
+The physical design flow tool **OpenLane** is installed and tested successfully.
+
+<p align="center">  
+  <img src="../images/openlane.png" alt="OpenLane Proof" width="500"/>  
+</p>  
+
+---
+
+## 🔹 SkyWater PDK (sky130A)
+
+Finally, the **Sky130A PDK** was integrated with Magic and verified.
+
+<p align="center">  
+  <img src="../images/skypdk.png" alt="Sky130 PDK Proof" width="500"/>  
+</p>  
+
+---
+
+✨ With this setup, the **complete toolchain is ready** for RTL-to-GDSII design using the **Sky130 open-source PDK**.
+
+---
+
