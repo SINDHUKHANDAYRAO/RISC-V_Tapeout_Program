@@ -108,15 +108,16 @@
 ## 📸 Lab Results
 
 ### 🔹 GTKWave Output
-![GTKWave Output](WEEK_1/DAY-1/gtkwave.png)
+![GTKWave Output](gtkwave.png)
+
+
 
 ### 🔹 Good MUX (Graphical Version)![alt text](image.png)
-![Good MUX Graph](WEEK_1/DAY-1/goodmux.png)
+![Good MUX Graph](goodmux_graph.png)
 
 ### 🔹 Netlist
-![Netlist](WEEK_1/DAY-1/netlist.png)
+![Netlist](netlist.png)
 
 
----
 
 
