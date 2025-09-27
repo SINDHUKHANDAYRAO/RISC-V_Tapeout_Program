@@ -1,17 +1,13 @@
-Perfect 👍 You want a **GitHub-ready document** (Markdown) that explains **.lib files** in detail (subtopic style, clean & aesthetic).
-I’ll expand your points, add pastel badges, block diagrams (ASCII), and structured explanation.
 
----
-
-# 🌸 Understanding `.lib` Files in VLSI
+#  Understanding `.lib` Files in VLSI
 
 ![Topic](https://img.shields.io/badge/Subtopic-.lib_Files-FFDAC1?style=for-the-badge)
-![Tech Node](https://img.shields.io/badge/Technology-130nm_B5EAD7?style=flat-square)
+
 ![Example](https://img.shields.io/badge/Example-sky130_fd_sc_hd__tt_025C_1v80.lib-CDB4DB?style=plastic)
 
 ---
 
-## ✨ What is a `.lib` File?
+##  What is a `.lib` File?
 
 A **`.lib` (Liberty file)** is a **timing and power model** for standard cells, used during synthesis, placement, and timing analysis.
 It tells the EDA tools how a gate behaves under different **PVT conditions**.
@@ -33,7 +29,7 @@ This defines the **PVT (Process, Voltage, Temperature) conditions**.
 
 ---
 
-## 🧩 What Does a `.lib` File Contain?
+##  What Does a `.lib` File Contain?
 
 1. **PVT Definitions**
 
@@ -83,7 +79,7 @@ This defines the **PVT (Process, Voltage, Temperature) conditions**.
 
 ---
 
-## 📊 Example Flow: How `.lib` is Used
+##  Example Flow: How `.lib` is Used
 
 ```
 +-------------+      +-------------+      +----------------+
@@ -97,7 +93,7 @@ This defines the **PVT (Process, Voltage, Temperature) conditions**.
                    - Cell mapping
 ```
 
-👉 The `.lib` file is critical because **synthesis maps RTL logic to real gates** only using the timing, power, and functional information defined here.
+ The `.lib` file is critical because **synthesis maps RTL logic to real gates** only using the timing, power, and functional information defined here.
 
 ---
 
