@@ -24,8 +24,9 @@ Synthesis tools recognize these cases and replace them with **simpler wiring**, 
 
 This works because powers of two correspond to **binary shifts**, which hardware realizes as **direct wiring with zeros**.
 
-**Illustration:**
+
 ![Power-of-Two Trick](schm2.png)
+
 ![Netlist View](net2.png)
 
 ---
@@ -43,8 +44,9 @@ This works because powers of two correspond to **binary shifts**, which hardware
 
 In many designs this simplifies to **concatenating `a` with itself** → ( y = aa ).
 
-**Illustration:**
+
 ![Decomposition Trick](schm8.png)
+
 ![Synthesis Result](net8.png)
 
 ---
