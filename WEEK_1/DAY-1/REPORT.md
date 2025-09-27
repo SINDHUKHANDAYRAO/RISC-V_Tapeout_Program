@@ -112,7 +112,7 @@
 
 
 
-### 🔹 Good MUX (Graphical Version)![alt text](image.png)
+### 🔹 Good MUX (Graphical Version)
 ![Good MUX Graph](goodmux_graph.png)
 
 ### 🔹 Netlist
