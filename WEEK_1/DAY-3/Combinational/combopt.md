@@ -9,7 +9,7 @@
 
 ## ✨ What is Optimization?
 
-Optimization in digital logic means **squeezing the logic to get a more efficient design** — reducing **area** and **power** without affecting functi![alt text](image.png)onality.
+Optimization in digital logic means **squeezing the logic to get a more efficient design** — reducing **area** and **power** without affecting functionality.
 This improves performance and lowers manufacturing costs.
 
 ---
